@@ -13,3 +13,13 @@ async def gender_keyboard() -> InlineKeyboardBuilder:
 
     keyboard_builder.row(*category_buttons)
     return keyboard_builder
+
+
+async def save_keyboard() -> InlineKeyboardBuilder:
+    keyboard_builder = InlineKeyboardBuilder()
+    button: list[InlineKeyboardButton] = [
+        InlineKeyboardButton(text='Сохранить',
+                             callback_data='сохранить')
+    ]
+    keyboard_builder.row(*button)
+    return keyboard_builder
