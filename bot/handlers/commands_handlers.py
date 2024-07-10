@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.types import Message
 from aiogram.filters import CommandStart, StateFilter
 from aiogram.fsm.state import default_state
-from ..lexicon.commands_lexicon import LEXICON
+from ..lexicon.user_lexicon import LEXICON
 
 
 router = Router()
