@@ -9,7 +9,7 @@ from ..services.form_service import UsersService, FormService
 
 from ..states.form_states import FSMFillForm
 from ..filters.filters import check_name, check_age, check_weight, check_height
-from ..lexicon.commands_lexicon import LEXICON
+from ..lexicon.user_lexicon import LEXICON
 from ..lexicon.form_lexicon import CANCEL_LEXICON, QUESTIONS_LEXICON, INCORRECT_DATA_LEXICON
 from ..keyboards.keyboard_utils import gender_keyboard, save_keyboard
 
